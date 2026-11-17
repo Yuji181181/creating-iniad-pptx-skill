@@ -1,0 +1,13 @@
+# スクリーンショット撮影（scripts/screenshot.py）用。必要なときだけ入れる
+#   .venv/bin/pip install -r requirements-screenshot.txt
+#   .venv/bin/python -m playwright install chromium
+playwright>=1.40
+nbformat>=5
+nbconvert>=7
+nbclient>=0.9
+ipykernel>=6
+# ノートブックを実行して撮るときに使う代表的なライブラリ（必要に応じて追加）
+pandas
+numpy
+matplotlib
+statsmodels
